@@ -1,6 +1,6 @@
-# 🍕 Pizza Builder
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/70612e77-c565-44f6-a9b9-f93e478d4980/deploy-status)](https://app.netlify.com/projects/pizzabuilderkbase/deploys)
+
+# 🍕 Pizza Builder
 
 A fun, interactive pizza-building web app where users can hand-pick sauce, cheese, toppings, and finishing touches — all using hand-drawn illustrations!
 
