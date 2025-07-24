@@ -1,0 +1,7 @@
+# Common files to ignore
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+*.log
+.env

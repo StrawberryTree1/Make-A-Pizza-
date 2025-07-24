@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make A Pizza!</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Music toggle button in top-left corner -->
+  <button id="toggle-audio">🔊</button>
+
+  <!-- Main container for pizza builder interface -->
+  <div class="container">
+
+    <!-- Pizza visualization area -->
+    <div class="pizza-area">
+      <!-- Base pizza crust image (bottom layer) -->
+      <img src="images/pizzacrust.png" id="pizza-base" />
+      
+      <!-- Container for all dynamic toppings (stacked above crust) -->
+      <div id="toppings-layer"></div>
+    </div>
+
+    <!-- User control panel: ingredient buttons + navigation -->
+    <div class="controls">
+      <!-- Area where ingredient buttons will appear dynamically -->
+      <div id="options-area"></div>
+
+      <!-- "Next" button to move through pizza stages -->
+      <button id="next-btn">NEXT</button>
+    </div>
+  </div>
+
+  <!-- Background music element (hidden) -->
+  <audio id="audio" loop src="Lukrembo - Bean (freetouse.com).mp3"></audio>
+
+  <!-- JavaScript functionality -->
+  <script src="script.js"></script>
+
+</body>
+</html>
