@@ -4,6 +4,10 @@
 
 A fun, interactive pizza-building web app where users can hand-pick sauce, cheese, toppings, and finishing touches — all using hand-drawn illustrations!
 
+## 🔗 Links
+- [Live Project on Netlify](https://https://pizzabuilderkbase.netlify.app/)
+- [Source Code on GitHub](https://github.com/StrawberryTree1/Make-A-Pizza-)
+
 ## 💡 Features
 - Hand-drawn assets using IbisPaint
 - Custom layering logic with JavaScript
